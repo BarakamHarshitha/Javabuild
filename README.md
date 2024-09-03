@@ -49,7 +49,7 @@ curl http://localhost:8080
 Application Configuration
 Port: The application runs on port 8080 by default. You can configure this by modifying the Dockerfile or the application’s configuration files.
 Common Issues and Troubleshooting
-Container Exits Immediately: Ensure that your Java application is designed to run indefinitely. If it’s a web server or long-running process, verify that it’s configured correctly.
+Container Exits Immediately: Ensure that your Java application is designed to run indefinitely. If it’s a web server or a long-running process, verify that it’s configured correctly.
 Network Issues: If you cannot access the application, check firewall settings and ensure that the port is correctly mapped and open.
 Contributing
 If you would like to contribute to this project, please fork the repository and submit a pull request. Ensure that your changes include appropriate tests and documentation.
@@ -58,14 +58,14 @@ License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 Contact
-For questions or support, please contact barakamharshitha@gmail.com.
+For questions or support, don't hesitate to contact barakamharshitha@gmail.com.
 
 Thank you for using My Java Application!
 
 
 ### Explanation of Sections
 
-- **Prerequisites**: Lists the tools needed to build and run the application.
+- **Prerequisites**: Lists the tools to build and run the application.
 - **Project Structure**: Provides an overview of the project's directory layout.
 - **Building the Application**: Instructions for building the application using Maven.
 - **Docker Instructions**: Steps to build and run the Docker image.
