@@ -21,6 +21,8 @@ RUN apt-get update && \
 
 WORKDIR /app
 
+EXPOSE 8080
+
 COPY --from=build /app/target/*.jar /app/myapp.jar
 
 ENTRYPOINT ["java", "-jar", "/app/myapp.jar"]
